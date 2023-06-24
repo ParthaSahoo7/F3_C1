@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color:black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 15px 0px 15px;
+    border-bottom:1px solid white;
+}
+
+.header-right{
+    display: flex;
+    gap:15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color:white;
+    border:none;
+    border-bottom:1px solid white;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+        .success-message {
+    color: green;
+    margin-top: 5px;
+        }
+
+#signup-button{
+    padding:10px 15px;
+}
+
+.profile-details {
+    margin: 20px;
+    font-size: 24px;
+}
+
+#prof{
+    margin:20px;
+}
+
+.logout-button {
+    margin: 20px;
+padding:10px 20px;
+}
